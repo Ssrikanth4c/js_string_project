@@ -8,11 +8,28 @@ const output_6= document.getElementById('string-output-6');
 const output_7= document.getElementById('string-output-7');
 
 const getNumOfChar=value=>value.length;
-const getFirstChar=value=>value[0];
-const getLastChar= value=>value[value.length-1];
+const getFirstChar=value=>{
+    if(value.length)
+        return value[0];
+    else
+        return "";
+}
+const getLastChar= value=>{
+    value=value.trim();
+    if(value.length)
+        return value[value.length-1];
+    else 
+        return '';
+}
 const getLowerCase=value=>value.toLowerCase();
 const getUpperCase= value=>value.toUpperCase();
-const getCapitalize=value=> `${value[0].toUpperCase()}${value.substring(1).toLowerCase()}`;
+const getCapitalize=value=> {
+    value= value.trim();
+    if(value.length)
+        return `${value[0].toUpperCase()}${value.substring(1).toLowerCase()}`;
+    else return "";
+}
+    
 const getRemoveSpaces=value=> value.trim();
 
 const getStrVariations=()=>{
