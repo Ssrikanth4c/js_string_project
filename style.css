@@ -1,0 +1,45 @@
+nav{
+    background: rgb(76, 221, 202);
+    padding:5px;
+    padding-left: 20px;
+}
+body{
+    margin:0px;
+    background: rgb(207, 207, 193);
+}
+main{
+    margin:20px;
+}
+label{
+    display: block;
+    margin-bottom: 10px;
+}
+input{
+    padding:10px;
+    max-width: 200px;
+    border: 0;
+}
+table{
+    margin-top: 10px;
+    border-collapse: collapse;
+}
+#result{
+    min-width: 200px;
+}
+thead{
+    background:rgb(47, 44, 49);
+    color:white;
+}
+
+td, th{
+    padding: 10px;
+}
+table tr:nth-last-of-type(even){
+    background: rgb(218, 108, 89);
+}
+tr td:first-child{
+    font-weight: 600;
+}
+tr td:last-child{
+    text-align: center;
+}

@@ -1,8 +1,5 @@
 # Project setup
-> structure
+> <b>Structure</b>
 * index.html
 * script.js
-* variations.js
 * style.css
-:+1:
-:camel:
